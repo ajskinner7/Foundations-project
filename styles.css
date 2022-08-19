@@ -1,13 +1,119 @@
-header {
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Regular.ttf);
+}
+html, body {
+    font-family: roboto;
+    margin: 0;
+    font-size: 21px;
+}
+.section {
+    padding: 18px 210px;
+}
+#s1, footer{
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-weight: 900;
+    font-size: larger;
 }
 a {
-    color: white;
+    color: #F9FAF8;
     text-decoration: none;
-
+    margin-left: 12px;
 }
-#logo {
-    display: inline;
-
+#content1 {
+    display: flex;
+    margin: 100px 0;
+}
+#sec1text {
+    align-self: stretch;
+    flex: 1;
+    margin-right: 40px;
+}
+#hero {
+    display: block;
+    font-size: 48px;
+    font-weight: 900;
+}
+button {
+    margin-top: 7px;
+    font-size: 21px;
+    font-weight: bold;
+    height: 45px;
+    width: 150px;
+    background-color: #258bff;
+    color:white;
+    border: 0;
+    border-radius: 9px;
+}
+#content1 img {
+    flex: 1;
+    background: #868696;
+    text-align: center;
+    line-height: 280px;
+}
+#s2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#infoheader {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 30px;
+}
+#imgs2 {
+    display: flex;
+}
+#imgs2 img {
+    height: 175px;
+    width: 175px;
+    border: solid #3882f6;
+    border-width: 5px;
+    border-radius: 12px;
+}
+.imgwcaption {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    margin: 30px;
+}
+.imgwcaption {
+    text-align: center;
+}
+#s3 {
+    background-color: #e5e7eB;
+    padding: 120px 322px;
+}
+#Quote {
+    font-size: 36px;
+    font-style: italic;
+}
+#author {
+    text-align: end;
+    font-weight: bold;
+}
+#s4 {
+    padding: 50px;
+    display: flex;
+    background-color: #258bff;
+    border-radius: 10px;
+    margin: 80px 200px;
+    color:white;
+    align-items: center;
+    justify-content: space-around;
+}
+#button2 {
+    border: solid white;
+    border-width: 3.5px;
+}
+footer {
+    text-align: center;
+    padding: 35px;
 }
